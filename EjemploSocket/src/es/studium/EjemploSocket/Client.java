@@ -5,7 +5,7 @@ public class Client
 {
 	public static void main(String[] args) throws Exception
 	{
-		String host = "localhost";
+		String host = "192.168.0.17";
 		int puerto = 6000; // Puerto remoto al que conectar
 		// Abrir Socket
 		Socket cliente = new Socket(host, puerto); // Conectar
